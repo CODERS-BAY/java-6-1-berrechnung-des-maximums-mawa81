@@ -25,13 +25,13 @@ public class Aufgabe6_1_Maxima_Calculation {
                 System.out.println("Please enter numbers (q for quit)");
             }
         }
-        int max_number = number;
+        int maxNumber = number;
         for (int j : list) {
             System.out.println(j);
-            if (max_number < j) {
-                max_number = j;
+            if (maxNumber < j) {
+                maxNumber = j;
             }
         }
-        System.out.println("The maximum value is " + max_number + ".");
+        System.out.println("The maximum value is " + maxNumber + ".");
     }
 }
